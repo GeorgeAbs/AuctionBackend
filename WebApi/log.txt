@@ -1,0 +1,12 @@
+from GetMyItemsHistoryAsync request
+a4b33981-1479-4614-a81e-b1883da411dd
+DisapprovedByModerator
+from GetMyItemsHistoryAsync request
+a4b33981-1479-4614-a81e-b1883da411dd
+AllStatuses
+from GetMyItemsHistoryAsync request
+a4b33981-1479-4614-a81e-b1883da411dd
+Template
+from GetMyItemsHistoryAsync request
+a4b33981-1479-4614-a81e-b1883da411dd
+DisapprovedByModerator

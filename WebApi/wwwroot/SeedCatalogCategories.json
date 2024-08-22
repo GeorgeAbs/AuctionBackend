@@ -1,0 +1,410 @@
+{
+  "categories": [
+    {
+      "name": "Wargames",
+      "systemName": "wargames",
+      "childrenCategories": [
+        {
+          "name": "Warhammer 40000",
+          "systemName": "warhammer_40000",
+          "stringPropNames": [
+            {
+              "name": "Коллекция",
+              "systemName": "collection",
+              "props": [
+                {
+                  "value": "Кол1",
+                  "systemValue": "col1"
+                },
+                {
+                  "value": "Кол2",
+                  "systemValue": "col2"
+                },
+                {
+                  "value": "Кол3",
+                  "systemValue": "col3"
+                },
+                {
+                  "value": "Кол4",
+                  "systemValue": "col4"
+                },
+                {
+                  "value": "Кол5",
+                  "systemValue": "col5"
+                },
+                {
+                  "value": "Кол6",
+                  "systemValue": "col6"
+                },
+                {
+                  "value": "Кол7",
+                  "systemValue": "col7"
+                }
+              ]
+            },
+            {
+              "name": "Цвет",
+              "systemName": "color",
+              "props": [
+                {
+                  "value": "Цвет1",
+                  "systemValue": "color1"
+                },
+                {
+                  "value": "Цвет2",
+                  "systemValue": "color2"
+                },
+                {
+                  "value": "Цвет3",
+                  "systemValue": "color3"
+                },
+                {
+                  "value": "Цвет4",
+                  "systemValue": "color4"
+                },
+                {
+                  "value": "Цвет5",
+                  "systemValue": "color5"
+                },
+                {
+                  "value": "Цвет6",
+                  "systemValue": "color6"
+                },
+                {
+                  "value": "Цвет7",
+                  "systemValue": "color8"
+                }
+              ]
+            }
+          ],
+          "boolPropNames": [
+            {
+              "name": "Раскрашена?",
+              "systemName": "painted",
+              "props": [
+                {
+                  "value": "Да",
+                  "systemValue": "yes"
+                },
+                {
+                  "value": "Нет",
+                  "systemValue": "no"
+                }
+              ]
+            }
+          ],
+          "floatPropNames": [
+            {
+              "name": "Масса",
+              "systemName": "mass"
+            },
+            {
+              "name": "Длина",
+              "systemName": "length"
+            },
+            {
+              "name": "Ширина",
+              "systemName": "width"
+            },
+            {
+              "name": "Высота",
+              "systemName": "heigth"
+            }
+          ],
+          "intPropNames": [
+            {
+              "name": "Кол-во деталей",
+              "systemName": "quantity"
+            }
+          ]
+        },
+        {
+          "name": "Warhammer 40001",
+          "systemName": "warhammer_40001",
+          "stringPropNames": [
+            {
+              "name": "Коллекция",
+              "systemName": "collection2",
+              "props": [
+                {
+                  "value": "Кол1",
+                  "systemValue": "col12"
+                },
+                {
+                  "value": "Кол2",
+                  "systemValue": "col22"
+                },
+                {
+                  "value": "Кол3",
+                  "systemValue": "col32"
+                },
+                {
+                  "value": "Кол4",
+                  "systemValue": "col42"
+                },
+                {
+                  "value": "Кол5",
+                  "systemValue": "col52"
+                },
+                {
+                  "value": "Кол6",
+                  "systemValue": "col62"
+                },
+                {
+                  "value": "Кол7",
+                  "systemValue": "col72"
+                }
+              ]
+            },
+            {
+              "name": "Цвет",
+              "systemName": "color2",
+              "props": [
+                {
+                  "value": "Цвет1",
+                  "systemValue": "color12"
+                },
+                {
+                  "value": "Цвет2",
+                  "systemValue": "color22"
+                },
+                {
+                  "value": "Цвет3",
+                  "systemValue": "color32"
+                },
+                {
+                  "value": "Цвет4",
+                  "systemValue": "color42"
+                },
+                {
+                  "value": "Цвет5",
+                  "systemValue": "color52"
+                },
+                {
+                  "value": "Цвет6",
+                  "systemValue": "color62"
+                },
+                {
+                  "value": "Цвет7",
+                  "systemValue": "color82"
+                }
+              ]
+            }
+          ],
+          "boolPropNames": [
+            {
+              "name": "Раскрашена?2",
+              "systemName": "painted2",
+              "props": [
+                {
+                  "value": "Да",
+                  "systemValue": "yes2"
+                },
+                {
+                  "value": "Нет",
+                  "systemValue": "no2"
+                }
+              ]
+            }
+          ],
+          "floatPropNames": [
+            {
+              "name": "Масса",
+              "systemName": "mass2"
+            },
+            {
+              "name": "Длина",
+              "systemName": "length2"
+            },
+            {
+              "name": "Ширина",
+              "systemName": "width2"
+            },
+            {
+              "name": "Высота",
+              "systemName": "heigth2"
+            }
+          ],
+          "intPropNames": [
+            {
+              "name": "Кол-во деталей",
+              "systemName": "quantity2"
+            }
+          ]
+        },
+        {
+          "name": "Warhammer 40002",
+          "systemName": "wh_40002",
+          "stringPropNames": [
+            {
+              "name": "Коллекция",
+              "systemName": "collection3",
+              "props": [
+                {
+                  "value": "Кол1",
+                  "systemValue": "col13"
+                },
+                {
+                  "value": "Кол2",
+                  "systemValue": "col23"
+                },
+                {
+                  "value": "Кол3",
+                  "systemValue": "col33"
+                },
+                {
+                  "value": "Кол4",
+                  "systemValue": "col43"
+                },
+                {
+                  "value": "Кол5",
+                  "systemValue": "col53"
+                },
+                {
+                  "value": "Кол6",
+                  "systemValue": "col63"
+                },
+                {
+                  "value": "Кол7",
+                  "systemValue": "col73"
+                }
+              ]
+            },
+            {
+              "name": "Цвет",
+              "systemName": "color3",
+              "props": [
+                {
+                  "value": "Цвет1",
+                  "systemValue": "color13"
+                },
+                {
+                  "value": "Цвет2",
+                  "systemValue": "color23"
+                },
+                {
+                  "value": "Цвет3",
+                  "systemValue": "color33"
+                },
+                {
+                  "value": "Цвет4",
+                  "systemValue": "color43"
+                },
+                {
+                  "value": "Цвет5",
+                  "systemValue": "color53"
+                },
+                {
+                  "value": "Цвет6",
+                  "systemValue": "color63"
+                },
+                {
+                  "value": "Цвет7",
+                  "systemValue": "color83"
+                }
+              ]
+            }
+          ],
+          "boolPropNames": [
+            {
+              "name": "Раскрашена?",
+              "systemName": "painted3",
+              "props": [
+                {
+                  "value": "Да",
+                  "systemValue": "yes3"
+                },
+                {
+                  "value": "Нет",
+                  "systemValue": "no3"
+                }
+              ]
+            }
+          ],
+          "floatPropNames": [
+            {
+              "name": "Масса",
+              "systemName": "mass3"
+            },
+            {
+              "name": "Длина",
+              "systemName": "length3"
+            },
+            {
+              "name": "Ширина",
+              "systemName": "width3"
+            },
+            {
+              "name": "Высота",
+              "systemName": "heigth3"
+            }
+          ],
+          "intPropNames": [
+            {
+              "name": "Кол-во деталей",
+              "systemName": "quantity3"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Стендовые модели",
+      "systemName": "stand_models",
+      "childrenCategories": [
+        {
+          "name": "Самолеты",
+          "systemName": "planes"
+        },
+        {
+          "name": "Танки",
+          "systemName": "tanks"
+        },
+        {
+          "name": "Котики",
+          "systemName": "cats"
+        }
+      ]
+    },
+    {
+      "name": "Настолкий",
+      "systemName": "table_games",
+      "childrenCategories": [
+        {
+          "name": "Карточные",
+          "systemName": "card"
+        },
+        {
+          "name": "Стратегии",
+          "systemName": "strategies"
+        },
+        {
+          "name": "PVP",
+          "systemName": "pvp"
+        }
+      ]
+    },
+    {
+      "name": "Ролевые игры",
+      "systemName": "role_games",
+      "childrenCategories": [
+        {
+          "name": "DnD",
+          "systemName": "dnd"
+        },
+        {
+          "name": "Pathfinder",
+          "systemName": "pathfinder"
+        },
+        {
+          "name": "PVP",
+          "systemName": "pvp"
+        }
+      ]
+    },
+    {
+      "name": "ККИ",
+      "systemName": "card_games"
+    }
+  ]
+}

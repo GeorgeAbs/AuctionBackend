@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Domain.Entities.Items.ItemTrading.ItemTrading">
+    <Position X="7.25" Y="1.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>BBAgAACEAAYAEAAAgCAAEAAEAAAQABAgIBAADAAAIAA=</HashCode>
+      <FileName>Entities\Items\ItemTrading\ItemTrading.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="ItemTradingStatusHistories" />
+    </ShowAsCollectionAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Domain.Entities.Items.ItemTrading.ItemTradingStatusHistory">
+    <Position X="11.5" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Items\ItemTrading\ItemTradingStatusHistory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

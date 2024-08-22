@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Domain.Entities.Catalog.CatalogCategory">
+    <Position X="11.75" Y="1.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>IARAAiBAGABAEAASgAFCGAQAgAgABAAEEiQAQBACEAA=</HashCode>
+      <FileName>Entities\Catalog\CatalogCategory.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="ChildrenCatalogCategories" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Domain.Entities.Catalog.CatalogProperty.CatalogBoolProperty">
+    <Position X="5" Y="8.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAgBAAQAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Catalog\CatalogProperty\CatalogBoolProperty.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domain.Entities.Catalog.CatalogProperty.CatalogFloatProperty">
+    <Position X="5" Y="4.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Catalog\CatalogProperty\CatalogFloatProperty.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domain.Entities.Catalog.CatalogProperty.CatalogIntProperty">
+    <Position X="5" Y="6.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Catalog\CatalogProperty\CatalogIntProperty.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domain.Entities.Catalog.CatalogProperty.CatalogStringProperty">
+    <Position X="5" Y="1.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAgBAAQAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Catalog\CatalogProperty\CatalogStringProperty.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domain.Entities.Catalog.CatalogProperty.CatalogProperty&lt;TValue, TPropertyName&gt;">
+    <Position X="1.25" Y="4.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAEAAAAAAAAAAQAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Entities\Catalog\CatalogProperty\CatalogProperty.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domain.Entities.Catalog.CatalogProperty.CatalogPropertiesNames.CatalogPropertyNameBase&lt;TProperty&gt;">
+    <Position X="8.25" Y="13.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAUAAAgAAAAAQAAAAAAAAYAgAAAAACAAA=</HashCode>
+      <FileName>Entities\Catalog\CatalogProperty\CatalogPropertiesNames\CatalogPropertyNameBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domain.Entities.Catalog.CatalogProperty.CatalogPropertiesNames.CatalogBoolPropertyName">
+    <Position X="8.5" Y="8.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Catalog\CatalogProperty\CatalogPropertiesNames\CatalogBoolPropertyName.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domain.Entities.Catalog.CatalogProperty.CatalogPropertiesNames.CatalogFloatPropertyName">
+    <Position X="8.5" Y="4.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Catalog\CatalogProperty\CatalogPropertiesNames\CatalogFloatPropertyName.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domain.Entities.Catalog.CatalogProperty.CatalogPropertiesNames.CatalogIntPropertyName">
+    <Position X="8.5" Y="6.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Catalog\CatalogProperty\CatalogPropertiesNames\CatalogIntPropertyName.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Domain.Entities.Catalog.CatalogProperty.CatalogPropertiesNames.CatalogStringPropertyName">
+    <Position X="8.5" Y="1.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Catalog\CatalogProperty\CatalogPropertiesNames\CatalogStringPropertyName.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

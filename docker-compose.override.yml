@@ -1,0 +1,30 @@
+services:
+  webapi:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=8080
+      - ASPNETCORE_HTTPS_PORTS=7152
+    ports:
+      - "8080"
+      - "7152"
+    depends_on:
+     - "db"
+    volumes:
+      - ${APPDATA}/Microsoft/UserSecrets:/home/app/.microsoft/usersecrets:ro
+      - ${APPDATA}/ASP.NET/Https:/home/app/.aspnet/https:ro
+  app_db:
+    image: postgres:latest
+    container_name: db
+    environment:
+      - POSTGRES_USER=*
+      - POSTGRES_PASSWORD=*
+      - POSTGRES_DB=*
+    ports:
+      - "5433:5432"
+    restart: always
+    volumes:
+      - app_data:/var/lib/postgresql/data
+    networks:
+      - dev
+volumes:
+  app_data:
